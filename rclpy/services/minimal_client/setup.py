@@ -29,7 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'client = examples_rclpy_minimal_client.client:main',
+            'client_services = examples_rclpy_minimal_client.client:main',
             'client_async = examples_rclpy_minimal_client.client_async:main',
             'client_async_member_function ='
             ' examples_rclpy_minimal_client.client_async_member_function:main',
